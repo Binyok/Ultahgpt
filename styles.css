@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+video {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+canvas {
+    margin-top: 20px;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.birthday-message {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.birthday-message h2 {
+    color: #333;
+}
+
+.birthday-message p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.birthday-message img {
+    width: 100%; /* Memastikan gambar mengisi kotak dengan baik */
+    max-width: 500px; /* Menetapkan lebar maksimum gambar */
+    height: auto; /* Mengatur ketinggian gambar agar proporsional */
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    video,
+    canvas {
+        width: 90%;
+    }
+}
